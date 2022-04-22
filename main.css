@@ -98,3 +98,26 @@ font-family: 'PT Sans', sans-serif; */
       flex: 0 1 auto;
       
   }
+
+  @media(min-width:500px){
+      h1{
+          font-size: 2.25rem;
+      }
+      .hero-img{
+        height: 391px;
+        width: 255px;
+      }
+      main{
+          margin: 100px auto;
+          height: 391px;
+          width: 771px;
+          flex-direction: row;
+      }
+      .content{
+          width:516px;
+      }
+
+      p{
+          font-size: 1.125rem;
+      }
+  }
