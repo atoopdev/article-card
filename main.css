@@ -20,7 +20,7 @@ font-family: 'PT Sans', sans-serif; */
     margin: 0;
   }
 
-  h1{
+  h2{
       color: #05CBE9;
       font-family: 'Blinker', sans-serif;
       font-weight: bold;
@@ -46,7 +46,7 @@ font-family: 'PT Sans', sans-serif; */
     object-fit: cover;
   }
 
-  main{
+  .container{
       margin: 20px auto;
       width: 320px;
       height: 593px;
@@ -59,6 +59,7 @@ font-family: 'PT Sans', sans-serif; */
       padding: 36px;
       display: flex;
       flex-direction: column;
+      border: 1px solid green;
 
   }
   p{
@@ -68,14 +69,16 @@ font-family: 'PT Sans', sans-serif; */
     line-height: 1.75;
   }
 
+  .content-bottom{
+      display: flex;
+      border: 1px solid red;
+  }
   .read-time{
     font-family: 'Blinker', sans-serif;
     color: #FFFFFF;
     font-weight: 400;
     font-size: 1.1875rem;
-    flex: 0 2 auto;
-    align-self: flex-start;
-    
+    /* flex: 0 2 auto; */
   }
 
   .large{
@@ -86,28 +89,27 @@ font-family: 'PT Sans', sans-serif; */
       font-weight: 600;
   }
 
-  .btn{
+  .card-btn{
       background-color: #05CBE9;
       font-family: 'Blinker', sans-serif;
       font-size:1.25rem;
       font-weight:600;
       text-transform: lowercase;
+      text-decoration: none;
       padding: .5em 1.25em;
       border:none;
-      display: inline-block;
-      flex: 0 1 auto;
-      
+      /* flex: 0 1 auto;  */
   }
 
   @media(min-width:500px){
-      h1{
+      h2{
           font-size: 2.25rem;
       }
       .hero-img{
         height: 391px;
         width: 255px;
       }
-      main{
+      .container{
           margin: 100px auto;
           height: 391px;
           width: 771px;
