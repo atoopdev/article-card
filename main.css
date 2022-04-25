@@ -12,6 +12,14 @@ body {
   padding: 0;
 }
 
+/* center component card - use to show components*/
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* remove margins on typography to keep margins consistent */
 h1,
 h2,
@@ -49,8 +57,9 @@ img {
 }
 
 .container {
-  margin: 20px auto;
-  width: 320px;
+  /* margin: 20px auto; */
+  /* width: 320px; */
+  width: 90%;
   /* height: 593px; */
   background-color: #111d4a;
   display: flex;
@@ -126,13 +135,12 @@ h2 {
     width: 255px; */
   }
   .container {
-    margin: 100px auto;
+    /* margin: 100px auto; */
     height: 391px;
     width: 771px;
     flex-direction: row;
   }
   .content {
-    width: 516px;
   }
 
   p {
